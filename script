@@ -1,0 +1,50 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "20IK 20IK / NICKI MINAJ GAG CITY", HidePremium = false, SaveConfig = true, ConfigFolder = "teste"})
+
+-- functions
+
+-- tabs
+local MainTab = Window:MakeTab({
+    Name = "Home",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+    
+})
+
+    -- inicio
+MainTab:AddButton({
+    Name = "Letter 1",
+    Callback = function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-686.704834, 703.075806, -480.111053, 0.999086797, 0.0384272374, -0.0186783336, -0.0375582054, 0.998287916, 0.0448400527, 0.0203694329, -0.04409758, 0.99881953)
+      end    
+})
+
+MainTab:AddButton({
+    Name = "Letter 2",
+    Callback = function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-658.012146, 706.099121, -191.455719, -0.997878551, -6.42136726e-08, 0.0651025847, -6.37721485e-08, 1, 8.8600185e-09, -0.0651025847, 4.68949102e-09, -0.997878551)
+      end    
+})
+
+MainTab:AddButton({
+    Name = "Letter 3",
+    Callback = function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-602.229858, 714.669067, -468.995819, 0.597710013, 6.58846204e-08, -0.801712394, 2.50166377e-08, 1, 1.00830817e-07, 0.801712394, -8.0323737e-08, 0.597710013)
+      end
+})
+
+MainTab:AddButton({
+    Name = "Letter 4",
+    Callback = function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-534.943909, 705.099121, -508.153809, -0.0134242671, -7.5494313e-08, -0.999909878, -4.57450078e-08, 1, -7.48869624e-08, 0.999909878, 4.47355823e-08, -0.0134242671)
+      end
+})
+
+MainTab:AddButton({
+    Name = "Letter 5",
+    Callback = function()
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-509.579132, 720.362061, -363.542847, -0.56936413, 0.00831266493, -0.822043419, -0.00148113642, 0.999936879, 0.011137424, 0.822084129, 0.0075588082, -0.56931591)
+      end
+})
+
+OrionLib:Init()
